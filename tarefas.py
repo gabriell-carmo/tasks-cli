@@ -28,7 +28,6 @@ def remover(indice):
     removida = tarefas.pop(indice)
     print(f'🗑️ Tarefa "{removida["tarefa"]}" removida!')
 
-# Menu principal
 while True:
     print("=== LISTA DE TAREFAS ===")
     print("1. Adicionar tarefa")
